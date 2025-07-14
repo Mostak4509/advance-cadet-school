@@ -3,8 +3,9 @@
 /* nav bar style here */
 
 .nav-bar{
- width: 1140px;
+ max-width: 1170ox;
  height: 62px;
+ margin: auto;
  display: flex;
  justify-content: space-between;
  align-items: center;
@@ -36,8 +37,7 @@
  
 }
 
-.btn-contact a{
-  text-decoration: none;
+.btn-contact {
   color: white;
   font-size: 20px;
 }
