@@ -86,3 +86,141 @@
   border-style: none;
   border-radius: 15px;
 }
+
+/* main focus style here */
+
+.main-focus{
+  font-size: 45px;
+  text-align: center;
+  margin: 35px;
+}
+
+.curri-section{
+  max-width: 1170px;
+  height: 540px;
+  
+}
+
+.container-box{
+  max-width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.box1{
+  width: 330px;
+  height: 400px;
+  background-color: #DEF5FF;
+  border: 1px solid rgba(94, 94, 110, 0.089);
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 25px;
+  box-shadow: 3px 3px 15px;
+}
+
+.box2{
+  width: 330px;
+  height: 400px;
+  background-color: #FFF4DC;
+  border: 1px solid rgba(94, 94, 110, 0.089);
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 25px;
+  box-shadow: 3px 3px 15px;
+}
+
+.box3{
+  width: 330px;
+  height: 400px;
+  background-color: #F2E8FF;
+  border: 1px solid rgba(94, 94, 110, 0.089);
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 25px;
+  box-shadow: 3px 3px 15px;
+}
+
+.angles{
+  position: absolute;
+  display: flex;
+  gap: 25px;
+ 
+}
+
+.arrow{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #FEA301;
+  border-radius: 50%;
+  left: 500px;
+  top: 60px;
+  bottom: 0;
+}
+
+.arrow i{
+  position: relative;
+  left: 23px;
+  top: 20px;
+  bottom: 0;
+  color: #ffffff;
+}
+
+
+/* story section style here */
+
+.story-heading{
+  text-align: center;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.story-section{
+  max-width: 1170px;
+  height: 500px;
+}
+
+.big-img{
+  width: 540px;
+  height: 500px;
+  background-color: #F2E8FF;
+  border-radius: 15px;
+}
+
+.big-img img{
+  border-radius: 15px;
+}
+
+.story-container{
+  display: flex;
+  gap: 15px;
+}
+
+.side-img1{
+  width: 310px;
+  height: 260px;
+  display: flex;
+  background-color: rgb(75, 231, 231);
+  box-sizing: border-box;
+  padding: 10px;
+  gap: 15px;
+  border-radius: 15px;
+}
+
+.side-img2{
+  width: 310px;
+  height: 260px;
+  display: flex;
+  background-color: rgb(75, 231, 231);
+  box-sizing: border-box;
+  padding: 10px;
+  gap: 15px;
+  border-radius: 15px;
+}
+
+.side-img2 img{
+  width: 280px;
+  height: 170px;
+}
